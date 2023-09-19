@@ -1,0 +1,161 @@
+#flagbox{
+    height: 700px;
+    width: 1000px;
+    position: static;
+}
+#greenbox{
+    background-color: green;
+    position:relative;
+    height: 700px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+}
+#orangebox{
+    background-color:  #ff6600;
+    position: relative;
+    height: 233.3px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+#whitebox{
+    background-color: white;
+    position: relative;
+    height: 233.3px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+       
+#whitebox > .chakra  {
+    height: 200px;
+    width: 199px;
+    border-radius: 50% 50%;
+    margin: auto;
+    position: relative;
+    border: 2q solid var(--blue);
+    border: 2px solid navy;
+    place-items: center;
+    top: 15px;
+    border-width: 5px;
+
+}
+
+.chakra li{
+    list-style: none;
+    width: 199px;
+    border: 1px solid navy;
+    position: absolute;
+
+}
+
+li:nth-child(1){
+  top: 100px;  
+  border-color: navy;
+  width: 199px;
+  transform: rotate(195deg);
+
+}
+
+li:nth-child(2){
+    top: 100px;
+    border-color: navy;
+    transform: rotate(15deg);
+}
+
+li:nth-child(3){
+    top: 100px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(30deg);
+
+
+
+}
+
+li:nth-child(4){
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(45deg);
+    
+}
+
+li:nth-child(5){
+    transform: rotate(60deg);
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+
+}
+
+li:nth-child(6){
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(75deg);
+    
+}
+
+li:nth-child(7){
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(90deg);
+    
+}
+
+li:nth-child(8){
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(105deg);
+    
+}
+
+li:nth-child(9){
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(135deg); 
+
+}
+
+li:nth-child(10){
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(150deg);
+    
+}
+
+li:nth-child(11){
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(165deg);
+
+    
+}
+
+li:nth-child(12){
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(180deg);
+
+}
+li:nth-child(13){
+    top: 99px;
+    border-color: navy;
+    width: 199px;
+    transform: rotate(300deg);
+
+}
